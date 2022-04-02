@@ -1,0 +1,36 @@
+* {
+box-sizing: border-box;
+}
+
+  img:hover {
+	box-shadow: 0 0 2px 1px black;
+  }
+ .bgimg{
+	 background: url(../image/kad.png) no-repeat center ;
+	 background-size: cover;
+	 height: 85vh;
+	 position: relative;
+  	 text-align: center;
+  	 color: rgb(240, 232, 232);
+ } 
+ .bgimg h1{
+	position: absolute;
+	top: 15%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-shadow: 2px 2px  black ;
+	font-size: 5vh;
+ }
+ .btn1{
+	position: absolute;
+	top: 25%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+ }
+ .footer{
+	 background: transparent;
+	 background-color: rgb(22, 212, 215);
+ }
+ .nav > ul > li > a:hover{
+	background-color:rgb(119, 177, 193);
+}
